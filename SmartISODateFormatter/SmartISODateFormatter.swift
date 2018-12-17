@@ -22,7 +22,7 @@
 
 import Foundation
 
-public class InternetDateFormatter: ISO8601DateFormatter {
+public class SmartISODateFormatter: ISO8601DateFormatter {
 
 	public override func date(from string: String) -> Date? {
 		if !string.contains(".") {
