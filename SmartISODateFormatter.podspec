@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name = "SmartISODateFormatter"
   s.summary = "A date formatter based on ISO8601DateFormatter that really understands."
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.license = "MIT"
 
