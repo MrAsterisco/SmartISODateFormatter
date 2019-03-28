@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAB86E8721C7D5250098ED7A"
-               BuildableName = "libSmartISODateFormatter.a"
+               BlueprintIdentifier = "CAC6BCD6224CE8EB00A16A24"
+               BuildableName = "SmartISODateFormatter.framework"
                BlueprintName = "SmartISODateFormatter"
                ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CAB86E8721C7D5250098ED7A"
-            BuildableName = "libSmartISODateFormatter.a"
+            BlueprintIdentifier = "CAC6BCD6224CE8EB00A16A24"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CAB86E8721C7D5250098ED7A"
-            BuildableName = "libSmartISODateFormatter.a"
+            BlueprintIdentifier = "CAC6BCD6224CE8EB00A16A24"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>
