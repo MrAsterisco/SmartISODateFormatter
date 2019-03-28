@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -111,11 +111,12 @@
 				};
 			};
 			buildConfigurationList = CAB86E8321C7D5250098ED7A /* Build configuration list for PBXProject "SmartISODateFormatter" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CAB86E7F21C7D5250098ED7A;
 			productRefGroup = CAB86E8921C7D5250098ED7A /* Products */;
