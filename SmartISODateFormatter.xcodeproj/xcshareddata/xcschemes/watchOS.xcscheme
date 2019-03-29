@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CAB9B53E224E5A7C00934E18"
-               BuildableName = "SmartISODateFormatter_watchOS.framework"
+               BuildableName = "SmartISODateFormatter.framework"
                BlueprintName = "SmartISODateFormatter-watchOS"
                ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB9B53E224E5A7C00934E18"
-            BuildableName = "SmartISODateFormatter_watchOS.framework"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter-watchOS"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB9B53E224E5A7C00934E18"
-            BuildableName = "SmartISODateFormatter_watchOS.framework"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter-watchOS"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>

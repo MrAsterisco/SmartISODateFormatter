@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CAB9B54B224E5A9D00934E18"
-               BuildableName = "SmartISODateFormatter_tvOS.framework"
+               BuildableName = "SmartISODateFormatter.framework"
                BlueprintName = "SmartISODateFormatter-tvOS"
                ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB9B54B224E5A9D00934E18"
-            BuildableName = "SmartISODateFormatter_tvOS.framework"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter-tvOS"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB9B54B224E5A9D00934E18"
-            BuildableName = "SmartISODateFormatter_tvOS.framework"
+            BuildableName = "SmartISODateFormatter.framework"
             BlueprintName = "SmartISODateFormatter-tvOS"
             ReferencedContainer = "container:SmartISODateFormatter.xcodeproj">
          </BuildableReference>
