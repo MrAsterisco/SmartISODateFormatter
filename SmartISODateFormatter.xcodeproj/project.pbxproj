@@ -7,19 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAC6BCDB224CE8EB00A16A24 /* SmartISODateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC6BCD9224CE8EB00A16A24 /* SmartISODateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAC6BCDF224CE93100A16A24 /* SmartISODateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB86E8B21C7D5250098ED7A /* SmartISODateFormatter.swift */; };
+		CAB9B535224E598900934E18 /* SmartISODateFormatter_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9B533224E598900934E18 /* SmartISODateFormatter_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB9B543224E5A7C00934E18 /* SmartISODateFormatter_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9B541224E5A7C00934E18 /* SmartISODateFormatter_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB9B550224E5A9D00934E18 /* SmartISODateFormatter_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9B54E224E5A9D00934E18 /* SmartISODateFormatter_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB9B557224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9B555224E5B3700934E18 /* SmartISODateFormatter.swift */; };
+		CAB9B558224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9B555224E5B3700934E18 /* SmartISODateFormatter.swift */; };
+		CAB9B559224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9B555224E5B3700934E18 /* SmartISODateFormatter.swift */; };
+		CAB9B563224E5B6A00934E18 /* SmartISODateFormatter_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB9B561224E5B6A00934E18 /* SmartISODateFormatter_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CAB86E8B21C7D5250098ED7A /* SmartISODateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartISODateFormatter.swift; sourceTree = "<group>"; };
-		CAC6BCD7224CE8EB00A16A24 /* SmartISODateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartISODateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC6BCD9224CE8EB00A16A24 /* SmartISODateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartISODateFormatter.h; sourceTree = "<group>"; };
-		CAC6BCDA224CE8EB00A16A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB9B531224E598900934E18 /* SmartISODateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartISODateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB9B533224E598900934E18 /* SmartISODateFormatter_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartISODateFormatter_macOS.h; sourceTree = "<group>"; };
+		CAB9B534224E598900934E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB9B53F224E5A7C00934E18 /* SmartISODateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartISODateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB9B541224E5A7C00934E18 /* SmartISODateFormatter_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartISODateFormatter_watchOS.h; sourceTree = "<group>"; };
+		CAB9B542224E5A7C00934E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB9B54C224E5A9D00934E18 /* SmartISODateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartISODateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB9B54E224E5A9D00934E18 /* SmartISODateFormatter_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartISODateFormatter_tvOS.h; sourceTree = "<group>"; };
+		CAB9B54F224E5A9D00934E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB9B555224E5B3700934E18 /* SmartISODateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartISODateFormatter.swift; sourceTree = "<group>"; };
+		CAB9B55F224E5B6A00934E18 /* SmartISODateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartISODateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB9B561224E5B6A00934E18 /* SmartISODateFormatter_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartISODateFormatter_iOS.h; sourceTree = "<group>"; };
+		CAB9B562224E5B6A00934E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAC6BCD4224CE8EB00A16A24 /* Frameworks */ = {
+		CAB9B52E224E598900934E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B53C224E5A7C00934E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B549224E5A9D00934E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B55C224E5B6A00934E18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,8 +67,11 @@
 		CAB86E7F21C7D5250098ED7A = {
 			isa = PBXGroup;
 			children = (
-				CAB86E8A21C7D5250098ED7A /* SmartISODateFormatter */,
-				CAC6BCD8224CE8EB00A16A24 /* SmartISODateFormatter */,
+				CAB9B554224E5B3700934E18 /* Sources */,
+				CAB9B532224E598900934E18 /* SmartISODateFormatter-macOS */,
+				CAB9B540224E5A7C00934E18 /* SmartISODateFormatter-watchOS */,
+				CAB9B54D224E5A9D00934E18 /* SmartISODateFormatter-tvOS */,
+				CAB9B560224E5B6A00934E18 /* SmartISODateFormatter-iOS */,
 				CAB86E8921C7D5250098ED7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,58 +79,166 @@
 		CAB86E8921C7D5250098ED7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAC6BCD7224CE8EB00A16A24 /* SmartISODateFormatter.framework */,
+				CAB9B531224E598900934E18 /* SmartISODateFormatter.framework */,
+				CAB9B53F224E5A7C00934E18 /* SmartISODateFormatter.framework */,
+				CAB9B54C224E5A9D00934E18 /* SmartISODateFormatter.framework */,
+				CAB9B55F224E5B6A00934E18 /* SmartISODateFormatter.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAB86E8A21C7D5250098ED7A /* SmartISODateFormatter */ = {
+		CAB9B532224E598900934E18 /* SmartISODateFormatter-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				CAB86E8B21C7D5250098ED7A /* SmartISODateFormatter.swift */,
+				CAB9B533224E598900934E18 /* SmartISODateFormatter_macOS.h */,
+				CAB9B534224E598900934E18 /* Info.plist */,
 			);
-			path = SmartISODateFormatter;
+			path = "SmartISODateFormatter-macOS";
 			sourceTree = "<group>";
 		};
-		CAC6BCD8224CE8EB00A16A24 /* SmartISODateFormatter */ = {
+		CAB9B540224E5A7C00934E18 /* SmartISODateFormatter-watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				CAC6BCD9224CE8EB00A16A24 /* SmartISODateFormatter.h */,
-				CAC6BCDA224CE8EB00A16A24 /* Info.plist */,
+				CAB9B541224E5A7C00934E18 /* SmartISODateFormatter_watchOS.h */,
+				CAB9B542224E5A7C00934E18 /* Info.plist */,
 			);
-			path = SmartISODateFormatter;
+			path = "SmartISODateFormatter-watchOS";
+			sourceTree = "<group>";
+		};
+		CAB9B54D224E5A9D00934E18 /* SmartISODateFormatter-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAB9B54E224E5A9D00934E18 /* SmartISODateFormatter_tvOS.h */,
+				CAB9B54F224E5A9D00934E18 /* Info.plist */,
+			);
+			path = "SmartISODateFormatter-tvOS";
+			sourceTree = "<group>";
+		};
+		CAB9B554224E5B3700934E18 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB9B555224E5B3700934E18 /* SmartISODateFormatter.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CAB9B560224E5B6A00934E18 /* SmartISODateFormatter-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAB9B561224E5B6A00934E18 /* SmartISODateFormatter_iOS.h */,
+				CAB9B562224E5B6A00934E18 /* Info.plist */,
+			);
+			path = "SmartISODateFormatter-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CAC6BCD2224CE8EB00A16A24 /* Headers */ = {
+		CAB9B52C224E598900934E18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC6BCDB224CE8EB00A16A24 /* SmartISODateFormatter.h in Headers */,
+				CAB9B535224E598900934E18 /* SmartISODateFormatter_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B53A224E5A7C00934E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9B543224E5A7C00934E18 /* SmartISODateFormatter_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B547224E5A9D00934E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9B550224E5A9D00934E18 /* SmartISODateFormatter_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B55A224E5B6A00934E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9B563224E5B6A00934E18 /* SmartISODateFormatter_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CAC6BCD6224CE8EB00A16A24 /* SmartISODateFormatter */ = {
+		CAB9B530224E598900934E18 /* SmartISODateFormatter-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAC6BCDC224CE8EB00A16A24 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter" */;
+			buildConfigurationList = CAB9B536224E598900934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-macOS" */;
 			buildPhases = (
-				CAC6BCD2224CE8EB00A16A24 /* Headers */,
-				CAC6BCD3224CE8EB00A16A24 /* Sources */,
-				CAC6BCD4224CE8EB00A16A24 /* Frameworks */,
-				CAC6BCD5224CE8EB00A16A24 /* Resources */,
+				CAB9B52C224E598900934E18 /* Headers */,
+				CAB9B52D224E598900934E18 /* Sources */,
+				CAB9B52E224E598900934E18 /* Frameworks */,
+				CAB9B52F224E598900934E18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SmartISODateFormatter;
-			productName = SmartISODateFormatter;
-			productReference = CAC6BCD7224CE8EB00A16A24 /* SmartISODateFormatter.framework */;
+			name = "SmartISODateFormatter-macOS";
+			productName = "SmartISODateFormatter-macOS";
+			productReference = CAB9B531224E598900934E18 /* SmartISODateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAB9B53E224E5A7C00934E18 /* SmartISODateFormatter-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB9B544224E5A7C00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-watchOS" */;
+			buildPhases = (
+				CAB9B53A224E5A7C00934E18 /* Headers */,
+				CAB9B53B224E5A7C00934E18 /* Sources */,
+				CAB9B53C224E5A7C00934E18 /* Frameworks */,
+				CAB9B53D224E5A7C00934E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartISODateFormatter-watchOS";
+			productName = "SmartISODateFormatter-watchOS";
+			productReference = CAB9B53F224E5A7C00934E18 /* SmartISODateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAB9B54B224E5A9D00934E18 /* SmartISODateFormatter-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB9B551224E5A9D00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-tvOS" */;
+			buildPhases = (
+				CAB9B547224E5A9D00934E18 /* Headers */,
+				CAB9B548224E5A9D00934E18 /* Sources */,
+				CAB9B549224E5A9D00934E18 /* Frameworks */,
+				CAB9B54A224E5A9D00934E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartISODateFormatter-tvOS";
+			productName = "SmartISODateFormatter-tvOS";
+			productReference = CAB9B54C224E5A9D00934E18 /* SmartISODateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAB9B55E224E5B6A00934E18 /* SmartISODateFormatter-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB9B564224E5B6A00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-iOS" */;
+			buildPhases = (
+				CAB9B55A224E5B6A00934E18 /* Headers */,
+				CAB9B55B224E5B6A00934E18 /* Sources */,
+				CAB9B55C224E5B6A00934E18 /* Frameworks */,
+				CAB9B55D224E5B6A00934E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartISODateFormatter-iOS";
+			productName = "SmartISODateFormatter-iOS";
+			productReference = CAB9B55F224E5B6A00934E18 /* SmartISODateFormatter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +251,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = MrAsterisco;
 				TargetAttributes = {
-					CAC6BCD6224CE8EB00A16A24 = {
+					CAB9B530224E598900934E18 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CAB9B53E224E5A7C00934E18 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CAB9B54B224E5A9D00934E18 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CAB9B55E224E5B6A00934E18 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -123,13 +278,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAC6BCD6224CE8EB00A16A24 /* SmartISODateFormatter */,
+				CAB9B55E224E5B6A00934E18 /* SmartISODateFormatter-iOS */,
+				CAB9B530224E598900934E18 /* SmartISODateFormatter-macOS */,
+				CAB9B53E224E5A7C00934E18 /* SmartISODateFormatter-watchOS */,
+				CAB9B54B224E5A9D00934E18 /* SmartISODateFormatter-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CAC6BCD5224CE8EB00A16A24 /* Resources */ = {
+		CAB9B52F224E598900934E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B53D224E5A7C00934E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B54A224E5A9D00934E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B55D224E5B6A00934E18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,11 +318,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CAC6BCD3224CE8EB00A16A24 /* Sources */ = {
+		CAB9B52D224E598900934E18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC6BCDF224CE93100A16A24 /* SmartISODateFormatter.swift in Sources */,
+				CAB9B557224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B53B224E5A7C00934E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9B558224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B548224E5A9D00934E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9B559224E5B3700934E18 /* SmartISODateFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB9B55B224E5B6A00934E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,10 +403,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SmartISODateFormatter;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -256,9 +460,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = SmartISODateFormatter;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -266,7 +472,67 @@
 			};
 			name = Release;
 		};
-		CAC6BCDD224CE8EB00A16A24 /* Debug */ = {
+		CAB9B537224E598900934E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SmartISODateFormatter-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAB9B538224E598900934E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SmartISODateFormatter-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAB9B545224E5A7C00934E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -274,21 +540,146 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 98ASURPE63;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SmartISODateFormatter/Info.plist;
+				INFOPLIST_FILE = "SmartISODateFormatter-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pillohealth.SmartISODateFormatter;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		CAB9B546224E5A7C00934E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SmartISODateFormatter-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		CAB9B552224E5A9D00934E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SmartISODateFormatter-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAB9B553224E5A9D00934E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SmartISODateFormatter-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAB9B565224E5B6A00934E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SmartISODateFormatter-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,29 +688,28 @@
 			};
 			name = Debug;
 		};
-		CAC6BCDE224CE8EB00A16A24 /* Release */ = {
+		CAB9B566224E5B6A00934E18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 98ASURPE63;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SmartISODateFormatter/Info.plist;
+				INFOPLIST_FILE = "SmartISODateFormatter-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pillohealth.SmartISODateFormatter;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mrasterisco.SmartISODateFormatter;
+				PRODUCT_NAME = SmartISODateFormatter;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,11 +730,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAC6BCDC224CE8EB00A16A24 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter" */ = {
+		CAB9B536224E598900934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAC6BCDD224CE8EB00A16A24 /* Debug */,
-				CAC6BCDE224CE8EB00A16A24 /* Release */,
+				CAB9B537224E598900934E18 /* Debug */,
+				CAB9B538224E598900934E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB9B544224E5A7C00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB9B545224E5A7C00934E18 /* Debug */,
+				CAB9B546224E5A7C00934E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB9B551224E5A9D00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB9B552224E5A9D00934E18 /* Debug */,
+				CAB9B553224E5A9D00934E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB9B564224E5B6A00934E18 /* Build configuration list for PBXNativeTarget "SmartISODateFormatter-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB9B565224E5B6A00934E18 /* Debug */,
+				CAB9B566224E5B6A00934E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
