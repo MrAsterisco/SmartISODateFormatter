@@ -1,47 +1,46 @@
 # SmartISODateFormatter
-A date formatter based on ISO8601DateFormatter that can parse ISO dates with and without milliseconds.
+A date formatter based on ISO8601DateFormatter that can parse all ISO dates. This includes:
+- Just dates (eg. `2022-11-11`),
+- Full dates (eg `2022-11-11T11:30:00Z`),
+- Full dates with milliseconds (eg. `2022-11-11T11:30:00.344Z`).
 
 The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard defines a representation of dates and times as an international standard to exchange date and time data in an unambigous way.
 This standard is widely used to exchange dates with and without times between APIs and client applications, such as iOS apps.
 
 Apple provides an implementation, as part of Foundation, to parse and write ISO 8601 dates and times called [ISO8601DateFormatter](https://developer.apple.com/documentation/foundation/iso8601dateformatter). This implementation is not very flexible: it requires a set of options to be passed that defines how the date is written and doesn't support parsing multiple formats at the same time.
 
-This subclass aims to support this situation, starting by focusing on date+time with and without milliseconds.
+This subclass fixes this problem by making changes to the `formatOptions` property on the fly before parsing the input string. 
 
 ## Installation
-The latest version of SmartISODateFormatter is built using Swift 5.
+Starting with version 2, SmartISODateFormatter is available through [Swift Package Manager](https://swift.org/package-manager).
 
-### CocoaPods
-Copy and paste the following entry in your Podfile:
-
-```ruby
-pod 'SmartISODateFormatter, ~> <version>
+```swift
+.package(url: "https://github.com/MrAsterisco/SmartISODateFormatter", from: "<see GitHub releases>")
 ```
 
-Then run `pod install`.
-
-In any file you'd like to use SmartISODateFormatter in, don't forget to import the framework with `import SmartISODateFormatter`.
-
-### Carthage
-Point Carthage to this repository with the following entry in your Cartfile:
-
-```
-github "MrAsterisco/SmartISODateFormatter" ~> <version>
-```
-
-### Manually
-This library is only one simple file: you can include `SmartISODateFormatter.swift` directly in your project or point to it via git submodules.
+### Latest Release
+To find out the latest version, look at the Releases tab of this repository.
 
 ## Usage
 SmartISODateFormatter is a subclass of `ISO8601DateFormatter`, so you can use it the same way as the original class.
 
 ```swift
-let string = "2019-03-28T00:00:00.000Z"
+let string = "2022-11-11T11:30:00.344Z"
 let date = SmartISODateFormatter().date(from: string)
 ```
+
+### JSONDecoder
+SmartISODateFormatter also comes bundled with a custom [`dateDecodingStrategy`](https://developer.apple.com/documentation/foundation/jsondecoder/2895216-datedecodingstrategy) for `JSONDecoder`. You can set it as follows:
+
+```swift
+let jsonDecoder = JSONDecoder()
+jsonDecoder.dateDecodingStrategy = .smartISO8601
+```
+
+This will empower the `JSONDecoder` to parse all the formats that are supported by SmartISODateFormatter.
 
 ## Contributing
 You are very welcome to fork this repository, make changes and create a pull request.
 
 ## License
-SmartISODateFormatter is released under the MIT license. See LICENSE for more information.
+SmartISODateFormatter is released under the MIT license. See [LICENSE](https://github.com/MrAsterisco/SmartISODateFormatter/blob/master/LICENSE) for more information.

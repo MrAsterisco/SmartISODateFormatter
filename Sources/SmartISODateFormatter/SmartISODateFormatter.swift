@@ -23,16 +23,28 @@
 import Foundation
 
 public class SmartISODateFormatter: ISO8601DateFormatter {
+  
+  public override func date(from string: String) -> Date? {
+    formatOptions = .withFullDate
+    
+    if stringContainsTime(string) {
+      self.formatOptions = [.withInternetDateTime]
+    }
+    if stringContainsMilliseconds(string) {
+      self.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+    }
+    
+    return super.date(from: string)
+  }
+  
+}
 
-	public override func date(from string: String) -> Date? {
-		if !string.contains(".") {
-			self.formatOptions = [.withInternetDateTime]
-		}
-		else {
-			self.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-		}
-
-		return super.date(from: string)
-	}
-
+private extension SmartISODateFormatter {
+  func stringContainsTime(_ string: String) -> Bool {
+    string.contains("T")
+  }
+  
+  func stringContainsMilliseconds(_ string: String) -> Bool {
+    string.contains(".")
+  }
 }
