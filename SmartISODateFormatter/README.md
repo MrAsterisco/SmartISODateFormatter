@@ -29,6 +29,16 @@ let string = "2022-11-11T11:30:00.344Z"
 let date = SmartISODateFormatter().date(from: string)
 ```
 
+### JSONDecoder
+SmartISODateFormatter also comes bundled with a custom [`dateDecodingStrategy`](https://developer.apple.com/documentation/foundation/jsondecoder/2895216-datedecodingstrategy) for `JSONDecoder`. You can set it as follows:
+
+```swift
+let jsonDecoder = JSONDecoder()
+jsonDecoder.dateDecodingStrategy = .smartISO8601
+```
+
+This will empower the `JSONDecoder` to parse all the formats that are supported by SmartISODateFormatter.
+
 ## Contributing
 You are very welcome to fork this repository, make changes and create a pull request.
 
