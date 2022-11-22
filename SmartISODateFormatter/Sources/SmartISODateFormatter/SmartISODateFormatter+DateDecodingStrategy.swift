@@ -9,7 +9,7 @@ import Foundation
 
 // See also:
 // https://stackoverflow.com/a/65974768/925537
-extension JSONDecoder.DateDecodingStrategy {
+public extension JSONDecoder.DateDecodingStrategy {
   static var smartISO8601 = custom { decoder in
     let input = try decoder.singleValueContainer().decode(String.self)
     
